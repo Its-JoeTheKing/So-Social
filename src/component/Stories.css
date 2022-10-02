@@ -1,0 +1,28 @@
+.nav2 {
+    height: 100px;
+    width: 40%;
+    max-width: 40%;
+    background: rgb(245, 245, 245);
+    margin-left: 20%;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 3px;
+    
+}
+.story {
+    display: inline-block;
+    height: 90px;
+    width: 90px;
+}
+.str {
+    height: 60px;
+    width: 60px;
+    margin-top: 5px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid rgb(255, 38, 0);
+    margin-left: 12px;
+}
+.story p {
+    text-align: center;
+    margin: 0px;
+}
