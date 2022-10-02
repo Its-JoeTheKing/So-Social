@@ -1,6 +1,40 @@
-.nav {
+@font-face {
+    font-family: 'kaisen';
+    src: url('./../assets/fonts/Kaizen.otf');
+}
+.navbar {
     height: 70px;
     width: 100%;
     background: white;
     border-bottom: 1px solid rgb(209, 209, 209);
+}
+.brand {
+    float: left;
+    margin-top: 23px;
+    margin-left: 15%;
+    font-family: 'kaisen';
+    font-size: 24px;
+}
+ul {
+    float: right;
+    margin-right: 20%;
+}
+li {
+    display: inline;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 40px;
+}
+li a {
+    text-decoration: none;
+    color: black;
+}
+.prof {
+    position: absolute;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    background: #000;
+
 }
