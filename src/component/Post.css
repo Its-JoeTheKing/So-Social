@@ -1,0 +1,30 @@
+.post-card {
+    position: absolute;
+    height: 80%;
+    width: 30%;
+    border: 1px solid black;
+    margin-left: 25%;
+    margin-top: 30px;
+
+}
+.head-card {
+    height: 10%;
+    width: 100%;
+    background: rgb(241, 239, 239);
+    display: flex;
+}
+.profa {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid orangered;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.user {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
