@@ -1,11 +1,14 @@
 .nav2 {
+    position: relative;
+    top: 80px;
     height: 100px;
     width: 40%;
     max-width: 40%;
-    background: rgb(245, 245, 245);
+    background: rgb(255, 255, 255);
     margin-left: 20%;
     border: 1px solid rgb(201, 201, 201);
     border-radius: 3px;
+    margin-bottom: 100px;
     
 }
 .story {
@@ -25,4 +28,5 @@
 .story p {
     text-align: center;
     margin: 0px;
+    font-size: 12px;
 }

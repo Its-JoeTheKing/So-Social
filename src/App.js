@@ -15,6 +15,8 @@ function App() {
       <NavBars/>
       <Stories/>
       <Post/>
+      <Post/>
+      <Post/>
     </div>
   );
 }

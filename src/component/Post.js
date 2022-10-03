@@ -13,18 +13,24 @@ export default class Post extends Component {
               <img className='profa' src={Img}/>
               <p className='user'>joesan_king</p>
             </CardHeader>
-            <CardBody style={{height: '60%',width: '100%'}}>
+            <CardBody style={{height: '70%',width: '100%'}}>
               <CardImg style={{width: '100%',height: '100%'}} src={Img}/>
             </CardBody>
             <CardFooter style={{height: '30%'}}>
-              <Row style={{width: '100%',height: '30%',display: 'flex',borderBottom: '2px solid black'}}>
+              <Row style={{width: '100%',height: '25%',display: 'flex'}}>
                 <Col className='btn fa-regular fa-heart'></Col>
                 <Col className='btn fa-regular fa-comment'></Col>
                 <Col className='btn fa-regular fa-paper-plane'></Col>
-                <Col style={{marginLeft: '5%',display: 'inline-block',width: "60%",height: '100%'}}></Col>
+                <Col className='btna fa-regular fa-bookmark'></Col>
               </Row>
-              <Row style={{width: '100%',height: '40%'}}></Row>
-              <Row style={{width: '100%',height: '30%'}}></Row>
+              <Row style={{width: '100%',height: '15%'}}>
+                <h2 style={{marginLeft: '20px',fontFamily: 'josefin sans',fontWeight: 'lighter',fontSize: '18px',textAlign: 'left'}}>Hello World</h2>
+              </Row>
+              <Row style={{width: '100%',height: '20%',display: 'flex',borderTop: '1px solid grey'}}>
+                <Col className='fa-regular fa-comment-dots' style={{marginTop: '8px',marginLeft: '10px',width: '10%',fontSize: '30px'}}></Col>
+                <Col className='comm'><textarea className='comm' placeholder='Add Comment ...' /></Col>
+                <Col className='butt'><button className='butt'>send</button></Col>
+              </Row>
             </CardFooter>
         </Card>
         </div>      

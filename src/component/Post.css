@@ -1,25 +1,27 @@
 .post-card {
-    position: absolute;
-    height: 80%;
+    height: 100%;
     width: 30%;
-    border: 1px solid rgb(228, 228, 228);
+    border: 1px solid rgb(146, 146, 146);
     margin-left: 25%;
-    margin-top: 30px;
+    margin-top: 20px;
     border-radius: 5px;
 
 }
 .head-card {
     height: 10%;
     width: 100%;
-    background: whitesmoke;
+    background: white;
     display: flex;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
 }
 .profa {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     border: 2px solid orangered;
-    margin-top: 10px;
+    margin-top: 3px;
     margin-left: 10px;
 }
 .user {
@@ -29,4 +31,28 @@
     margin-left: 10px;
     vertical-align: middle;
 }
-.btn {margin-left: '5%';display: 'inline-block';width: "10%";height: '100%';font-size: 30px;margin-top: 15px;margin-left: 20px;}
+.btn {margin-left: '5%';display: 'inline-block';width: "10%";height: '100%';font-size: 22px;margin-top: 10px;margin-left: 20px;}
+.btna {position: relative;display: 'inline-block';font-size: 22px;margin-top: 15px;margin-left: 65%;}
+.comm {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-family: 'Lucida Sans', sans-serif;
+    resize: none;
+    overflow: hidden;
+    color: rgb(31, 30, 30);
+}
+.butt {
+    background-color: transparent;
+    border: none;
+    color: rgb(0, 81, 255);
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: bold;
+    font-family: sans-serif;
+}

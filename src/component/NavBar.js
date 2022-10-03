@@ -13,8 +13,8 @@ export default class NavBars extends Component {
             <input className='searchbar' placeholder='search'></input>
             <ul>
                 <li className='links'><NavLink href='#' className='fas fa-home'></NavLink></li>
-                <li className='links'><NavLink href='#' className='fas fa-tv'></NavLink></li>
-                <li className='links'><NavLink href='#' className='fas fa-paper-plane'></NavLink></li>
+                <li className='links'><NavLink href='#' className='fas fa-film'></NavLink></li>
+                <li className='links'><NavLink href='#' className='fa-regular fa-paper-plane'></NavLink></li>
                 <li className='links'><NavLink href='#' className='prof'><img className='prof' src={img} /></NavLink></li>
             </ul>
         </Navbar>
